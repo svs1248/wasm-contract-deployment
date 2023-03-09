@@ -25,13 +25,14 @@ try {
   
   // gas limit for deployment
   const gasLimit = 100000n * 1000000n
+
   
   // endoement
   const value = 100n * 1000n
   
   
   // adding fire account for paying the gas fee
-  const PHRASE = 'negative cheap cherry uncover absurd angle swarm armor tuna lounge hurdle lawsuit';
+  const PHRASE = 'bless lesson bronze bind advice future clown whale unveil rigid tenant history';
   const seedUser = mnemonicToMiniSecret(PHRASE);
   const keyring = new Keyring({ type: "ed25519" });
   const userKeyring = keyring.addFromPair(naclKeypairFromSeed(seedUser));
